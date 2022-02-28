@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+   
+}
+
+:root{
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+
+   --bg-pagina: #EAEAEA;
+   --bg-receita: #FFFFFF;
+   --tittles: #1B1B1B;
+   --footer-e-legenda: #8F8F8F;
+   --Outros-textos: #39393A;
+}
+
+body{
+   background-color: var(--bg-pagina);
+}
+
+.container{
+   background-color: var(--bg-receita);
+   margin: 50px 400px;
+   padding: 0 50px;
+   border-radius: 10px;
+
+}
+
+.receita-titulo{
+   font-size: 1.75rem;
+   font-weight: 700;
+   text-align: center;
+   padding: 90px 0 20px 0;
+   text-transform: uppercase;
+   color: var(--tittles);
+}
+
+.receita-imagem{
+   width: 100%;
+   height: 350px;
+   object-fit: cover;
+   border-radius: 10px;
+   margin-bottom: 5px;
+}
+
+.receita-legenda{
+   color: var(--footer-e-legenda);
+   text-align: right;
+   
+}
+
+.subtitulo{
+   font-size: 1.75rem;
+   font-weight: 700;
+   text-align: center;
+   padding: 35px 0 20px 0;
+   text-transform: uppercase;
+   color: var(--tittles);
+}
+
+.igredientes-lista-item{
+   color: var(--Outros-textos);
+   font-size: 16px;
+   font-weight: 400;
+   margin: 1.75rem 0;
+   list-style-position: inside;
+}
+
+.preparo-lista-item{
+   color: var(--Outros-textos);
+   font-size: 1rem;
+   margin: 1.75rem 0;
+   list-style-position: inside;
+}
+
+.info-dica{
+   color: var(--Outros-textos);
+   font-size: 1rem;
+   padding: 2rem 0;
+}
+
+.container-rodape{
+   height: 50x;
+}
+
+.rodape{
+   text-align: center;
+   font-size: 0.75rem;
+   color: var(--footer-e-legenda);
+   font-weight: 400;
+   padding: 2rem 0;
+}
